@@ -43,3 +43,9 @@ if __name__ == '__main__':
 
     plusMinus(arr)
 
+# Mini - Max Sum solution
+def miniMaxSum(arr):
+    # Write your code here
+    maxsum = sum(arr) - max(arr)
+    minsum = sum(arr) - min(arr)
+    print(maxsum,minsum)
